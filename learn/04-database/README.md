@@ -746,4 +746,4 @@ graph LR
 > - [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 > - [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
 
-> ⬅️ [上一章：缓存设计](../03-cache/README.md) | [下一章：异步与消息队列](../05-async/README.md) ➡️
+> ⬅️ [上一章：网络基础设施](../03-networking/README.md) | [下一章：缓存设计](../05-cache/README.md) ➡️
